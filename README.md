@@ -1,6 +1,9 @@
 # 🚀 CareerCraft AI
 
+🔗 **Live Demo**: [Click here to try CareerCraft AI](https://careerrecommendationengine.streamlit.app/)
+
 CareerCraft AI is a smart career recommendation engine powered by AI. It helps you upload your resume or LinkedIn summary, analyze your skills, and suggest the most suitable job roles, missing skills, courses, job listings, resume templates, interview questions, and even a career growth plan — all in one app!
+
 
 ---
 
@@ -75,6 +78,44 @@ career-craft-ai/
  Cohere
  LottieFiles
  BeautifulSoup
+
+---
+
+## 📸 App Screenshots
+
+### 🏁 1. Landing Page
+![Home](01_home.png)
+
+---
+
+### 🧠 2. Skills Extracted + Match % Comparison
+![Skills](02_skills.png)
+
+---
+
+### 💼 3. Job Listings
+![Job Listings](03_joblistings.png)
+
+---
+
+### 📄 4. Resume Templates
+![Templates](04_resume_templates.png)
+
+---
+
+### ✉️ 5. Cover Letter Generator
+![Cover Letter](05_coverletter.png)
+
+---
+
+### 🚀 6. Career Roadmap (6 Months + 3 Years)
+![Roadmap](06_roadmap.png)
+
+---
+
+### 🤖 7. CareerBot Chat
+![Chatbot](07_chatbot.png)
+
 
 🙌 Created By
 Nahid Ansari – AI & Data Science Engineer 💼
