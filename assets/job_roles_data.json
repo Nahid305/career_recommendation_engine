@@ -1,0 +1,5 @@
+{
+  "Data Analyst": ["python", "sql", "excel", "data visualization", "statistics"],
+  "Backend Developer": ["python", "django", "api", "sql", "git"],
+  "ML Engineer": ["python", "machine learning", "tensorflow", "scikit-learn", "numpy"]
+}

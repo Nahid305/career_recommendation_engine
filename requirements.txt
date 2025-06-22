@@ -1,3 +1,8 @@
+
+
+## 📄 `requirements.txt` – Save as `requirements.txt`
+
+```txt
 streamlit
 pdfplumber
 spacy
@@ -5,3 +10,7 @@ beautifulsoup4
 selenium
 requests
 matplotlib
+pandas
+cohere
+streamlit-lottie
+
