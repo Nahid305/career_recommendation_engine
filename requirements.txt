@@ -1,0 +1,7 @@
+streamlit
+pdfplumber
+spacy
+beautifulsoup4
+selenium
+requests
+matplotlib
