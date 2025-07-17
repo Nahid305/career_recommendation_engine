@@ -76,7 +76,7 @@ CareerCraft AI is a comprehensive, AI-powered career recommendation engine speci
 ## 🚀 **Quick Start**
 
 ### 🌐 **Live Demo**
-**[Try CareerCraft AI Live](https://careercraft-ai.streamlit.app/)**
+**[Try CareerCraft AI Live](https://careerrecommendationengine.streamlit.app/)**
 
 ### �️ **Local Installation**
 
