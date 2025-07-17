@@ -12,4 +12,6 @@ textstat>=0.7.0
 python-docx>=0.8.0
 openpyxl>=3.1.0
 numpy>=1.26.0
+cohere>=4.0.0
+streamlit-lottie>=0.0.5
 
