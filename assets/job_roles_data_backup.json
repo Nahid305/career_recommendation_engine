@@ -1,0 +1,82 @@
+{
+  "Data Analyst": {
+    "required_skills": ["python", "sql", "excel", "data visualization", "statistics", "pandas", "numpy"],
+    "preferred_skills": ["tableau", "powerbi", "r", "machine learning", "jupyter", "matplotlib", "seaborn"],
+    "experience_level": "entry",
+    "salary_range": "$50,000 - $80,000",
+    "job_description": "Analyze data to help organizations make informed decisions",
+    "growth_areas": ["machine learning", "advanced analytics", "cloud platforms"]
+  },
+  "Backend Developer": {
+    "required_skills": ["python", "django", "api", "sql", "git", "web development"],
+    "preferred_skills": ["flask", "fastapi", "postgresql", "mongodb", "redis", "docker", "aws"],
+    "experience_level": "mid",
+    "salary_range": "$70,000 - $120,000",
+    "job_description": "Develop server-side applications and APIs",
+    "growth_areas": ["microservices", "cloud architecture", "devops"]
+  },
+  "ML Engineer": {
+    "required_skills": ["python", "machine learning", "tensorflow", "scikit-learn", "numpy", "pandas"],
+    "preferred_skills": ["pytorch", "keras", "aws", "docker", "kubernetes", "mlops", "spark"],
+    "experience_level": "senior",
+    "salary_range": "$90,000 - $150,000",
+    "job_description": "Build and deploy machine learning models at scale",
+    "growth_areas": ["deep learning", "mlops", "cloud ml platforms"]
+  },
+  "Frontend Developer": {
+    "required_skills": ["javascript", "html", "css", "react", "git"],
+    "preferred_skills": ["typescript", "vue", "angular", "node.js", "webpack", "sass", "jest"],
+    "experience_level": "entry",
+    "salary_range": "$60,000 - $100,000",
+    "job_description": "Create user interfaces and user experiences for web applications",
+    "growth_areas": ["mobile development", "progressive web apps", "web performance"]
+  },
+  "DevOps Engineer": {
+    "required_skills": ["linux", "docker", "kubernetes", "git", "ci/cd", "aws"],
+    "preferred_skills": ["terraform", "ansible", "jenkins", "monitoring", "prometheus", "grafana"],
+    "experience_level": "senior",
+    "salary_range": "$80,000 - $130,000",
+    "job_description": "Automate deployment and manage infrastructure",
+    "growth_areas": ["security", "cloud native", "observability"]
+  },
+  "Data Scientist": {
+    "required_skills": ["python", "machine learning", "statistics", "sql", "pandas", "numpy"],
+    "preferred_skills": ["r", "tensorflow", "pytorch", "jupyter", "matplotlib", "seaborn", "spark"],
+    "experience_level": "senior",
+    "salary_range": "$85,000 - $140,000",
+    "job_description": "Extract insights from data using statistical and ML methods",
+    "growth_areas": ["deep learning", "nlp", "computer vision"]
+  },
+  "Full Stack Developer": {
+    "required_skills": ["javascript", "python", "html", "css", "react", "node.js", "sql"],
+    "preferred_skills": ["mongodb", "express", "vue", "angular", "aws", "docker"],
+    "experience_level": "mid",
+    "salary_range": "$75,000 - $115,000",
+    "job_description": "Develop both frontend and backend components of web applications",
+    "growth_areas": ["cloud platforms", "mobile development", "architecture"]
+  },
+  "Cybersecurity Analyst": {
+    "required_skills": ["cybersecurity", "networking", "linux", "python", "sql"],
+    "preferred_skills": ["penetration testing", "incident response", "siem", "vulnerability assessment"],
+    "experience_level": "mid",
+    "salary_range": "$70,000 - $110,000",
+    "job_description": "Protect organizations from cyber threats and security breaches",
+    "growth_areas": ["cloud security", "threat intelligence", "security automation"]
+  },
+  "Product Manager": {
+    "required_skills": ["product management", "agile", "scrum", "analytics", "communication"],
+    "preferred_skills": ["sql", "a/b testing", "wireframing", "user research", "roadmapping"],
+    "experience_level": "senior",
+    "salary_range": "$90,000 - $140,000",
+    "job_description": "Guide product development from conception to launch",
+    "growth_areas": ["data analysis", "user experience", "strategy"]
+  },
+  "Mobile Developer": {
+    "required_skills": ["mobile development", "java", "kotlin", "swift", "react native"],
+    "preferred_skills": ["flutter", "firebase", "app store", "ui/ux", "api integration"],
+    "experience_level": "mid",
+    "salary_range": "$70,000 - $120,000",
+    "job_description": "Develop mobile applications for iOS and Android platforms",
+    "growth_areas": ["cross-platform development", "ar/vr", "iot"]
+  }
+}
