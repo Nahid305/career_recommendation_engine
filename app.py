@@ -161,112 +161,247 @@ def main():
 def show_home_page():
     """Display enhanced home page with features overview"""
     
-    # Hero section with realistic content
+    # Hero section with impressive animations and content
     st.markdown("""
     <div class="main-header">
         <h1>🚀 CareerCraft AI</h1>
         <p>Your Intelligent Career Companion for the Indian Job Market</p>
-        <div style="margin-top: 1.5rem;">
-            <span style="background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; border-radius: 25px; margin: 0.5rem;">🎯 AI-Powered Matching</span>
-            <span style="background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; border-radius: 25px; margin: 0.5rem;">💰 Salary Insights in LPA</span>
-            <span style="background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; border-radius: 25px; margin: 0.5rem;">📊 Career Analytics</span>
+        <div style="margin-top: 2rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+            <span style="background: rgba(255,255,255,0.25); padding: 0.8rem 1.5rem; border-radius: 30px; margin: 0.5rem; font-weight: 600; backdrop-filter: blur(10px); color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">🎯 AI-Powered Matching</span>
+            <span style="background: rgba(255,255,255,0.25); padding: 0.8rem 1.5rem; border-radius: 30px; margin: 0.5rem; font-weight: 600; backdrop-filter: blur(10px); color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">💰 Salary Insights in LPA</span>
+            <span style="background: rgba(255,255,255,0.25); padding: 0.8rem 1.5rem; border-radius: 30px; margin: 0.5rem; font-weight: 600; backdrop-filter: blur(10px); color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">📊 Career Analytics</span>
+            <span style="background: rgba(255,255,255,0.25); padding: 0.8rem 1.5rem; border-radius: 30px; margin: 0.5rem; font-weight: 600; backdrop-filter: blur(10px); color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">🚀 Smart Career Tools</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
     
-    # Features overview with realistic descriptions
-    st.markdown("### 🎯 How CareerCraft AI Helps You")
+    # Key features section with realistic content
+    st.markdown("### 🎯 Key Features")
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
+        st.markdown("""
+        <div class="metric-container">
+            <div class="metric-value">🎯</div>
+            <div class="metric-label">Smart Matching</div>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with col2:
+        st.markdown("""
+        <div class="metric-container">
+            <div class="metric-value">📊</div>
+            <div class="metric-label">Career Analytics</div>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with col3:
+        st.markdown("""
+        <div class="metric-container">
+            <div class="metric-value">💡</div>
+            <div class="metric-label">AI Insights</div>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with col4:
+        st.markdown("""
+        <div class="metric-container">
+            <div class="metric-value">🚀</div>
+            <div class="metric-label">Career Growth</div>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    # Features overview with impressive descriptions
+    st.markdown('<div class="section-header">🎯 How CareerCraft AI Transforms Your Career</div>', unsafe_allow_html=True)
+    
     col1, col2, col3 = st.columns(3)
     
     with col1:
         st.markdown("""
         <div class="feature-highlight">
-            <h3>📄 Smart Resume Analysis</h3>
-            <p>Upload your resume and get AI-powered insights. Our system extracts skills, analyzes ATS compatibility, and provides actionable improvement suggestions.</p>
+            <h3>� Smart Resume Analysis</h3>
+            <p>Upload your resume and get AI-powered insights with ATS compatibility scores, skill extraction, and improvement suggestions. Our advanced NLP algorithms analyze your resume against industry standards.</p>
+            <div style="margin-top: 1rem;">
+                <span style="background: #dcfce7; color: #166534; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">✓ ATS Scoring</span>
+                <span style="background: #dbeafe; color: #1e40af; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">✓ Skill Extraction</span>
+            </div>
         </div>
         """, unsafe_allow_html=True)
     
     with col2:
         st.markdown("""
         <div class="feature-highlight">
-            <h3>💼 Personalized Job Matching</h3>
-            <p>Discover job opportunities that match your skills and experience. Get salary information in LPA format and apply to positions from top Indian companies.</p>
+            <h3>🎯 Personalized Job Matching</h3>
+            <p>Discover opportunities that perfectly match your skills and experience. Access jobs from top companies and emerging startups with comprehensive salary information and growth potential.</p>
+            <div style="margin-top: 1rem;">
+                <span style="background: #fef3c7; color: #92400e; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">✓ Smart Matching</span>
+                <span style="background: #ecfdf5; color: #166534; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">✓ LPA Salaries</span>
+            </div>
         </div>
         """, unsafe_allow_html=True)
     
     with col3:
         st.markdown("""
         <div class="feature-highlight">
-            <h3>🎯 Skill Development</h3>
-            <p>Get personalized skill assessments and learning recommendations. Track your progress and build a roadmap for career advancement.</p>
+            <h3>📈 Career Development</h3>
+            <p>Get personalized skill assessments, learning recommendations, and career roadmaps. Track your progress with interactive dashboards and build a strategic path for career advancement.</p>
+            <div style="margin-top: 1rem;">
+                <span style="background: #f3e8ff; color: #7c3aed; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">✓ Skill Assessment</span>
+                <span style="background: #fef7e3; color: #d97706; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">✓ Learning Paths</span>
+            </div>
         </div>
         """, unsafe_allow_html=True)
     
-    # How it works section
-    st.markdown("### 🔄 How It Works")
+    # How it works section with enhanced visuals
+    st.markdown('<div class="section-header">🔄 How It Works - Your Journey to Success</div>', unsafe_allow_html=True)
+    
     step_col1, step_col2, step_col3, step_col4 = st.columns(4)
     
     with step_col1:
         st.markdown("""
-        <div style="text-align: center; padding: 1rem;">
-            <div style="background: #4f46e5; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: bold;">1</div>
-            <h4 style="margin: 0.5rem 0; color: #1e293b;">Upload Resume</h4>
-            <p style="color: #64748b; font-size: 0.9rem;">Upload your resume and let our AI analyze your skills and experience</p>
+        <div style="text-align: center; padding: 2rem 1rem;">
+            <div style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); color: white; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; font-weight: bold; box-shadow: 0 10px 30px rgba(79, 70, 229, 0.3);">1</div>
+            <h4 style="margin: 1rem 0; color: #1e293b; font-size: 1.2rem; font-weight: 700;">📄 Upload Resume</h4>
+            <p style="color: #1e293b; font-size: 1rem; line-height: 1.5; font-weight: 500; text-shadow: 0 1px 2px rgba(255,255,255,0.8);">Upload your resume in PDF format and let our advanced AI analyze your skills, experience, and career potential with precision.</p>
         </div>
         """, unsafe_allow_html=True)
     
     with step_col2:
         st.markdown("""
-        <div style="text-align: center; padding: 1rem;">
-            <div style="background: #10b981; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: bold;">2</div>
-            <h4 style="margin: 0.5rem 0; color: #1e293b;">AI Analysis</h4>
-            <p style="color: #64748b; font-size: 0.9rem;">Get detailed insights on your strengths and areas for improvement</p>
+        <div style="text-align: center; padding: 2rem 1rem;">
+            <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; font-weight: bold; box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);">2</div>
+            <h4 style="margin: 1rem 0; color: #1e293b; font-size: 1.2rem; font-weight: 700;">🤖 AI Analysis</h4>
+            <p style="color: #1e293b; font-size: 1rem; line-height: 1.5; font-weight: 500; text-shadow: 0 1px 2px rgba(255,255,255,0.8);">Get comprehensive insights on your strengths, skill gaps, and personalized recommendations for career growth and improvement.</p>
         </div>
         """, unsafe_allow_html=True)
     
     with step_col3:
         st.markdown("""
-        <div style="text-align: center; padding: 1rem;">
-            <div style="background: #f59e0b; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: bold;">3</div>
-            <h4 style="margin: 0.5rem 0; color: #1e293b;">Match Jobs</h4>
-            <p style="color: #64748b; font-size: 0.9rem;">Discover relevant job opportunities with competitive salaries</p>
+        <div style="text-align: center; padding: 2rem 1rem;">
+            <div style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; font-weight: bold; box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);">3</div>
+            <h4 style="margin: 1rem 0; color: #1e293b; font-size: 1.2rem; font-weight: 700;">🎯 Match Jobs</h4>
+            <p style="color: #1e293b; font-size: 1rem; line-height: 1.5; font-weight: 500; text-shadow: 0 1px 2px rgba(255,255,255,0.8);">Discover relevant job opportunities with competitive Indian salaries, company insights, and direct application links.</p>
         </div>
         """, unsafe_allow_html=True)
     
     with step_col4:
         st.markdown("""
-        <div style="text-align: center; padding: 1rem;">
-            <div style="background: #7c3aed; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: bold;">4</div>
-            <h4 style="margin: 0.5rem 0; color: #1e293b;">Grow Career</h4>
-            <p style="color: #64748b; font-size: 0.9rem;">Plan your career path with personalized recommendations</p>
+        <div style="text-align: center; padding: 2rem 1rem;">
+            <div style="background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%); color: white; width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; font-weight: bold; box-shadow: 0 10px 30px rgba(124, 58, 237, 0.3);">4</div>
+            <h4 style="margin: 1rem 0; color: #1e293b; font-size: 1.2rem; font-weight: 700;">🚀 Grow Career</h4>
+            <p style="color: #1e293b; font-size: 1rem; line-height: 1.5; font-weight: 500; text-shadow: 0 1px 2px rgba(255,255,255,0.8);">Plan your career trajectory with personalized roadmaps, skill development plans, and continuous progress tracking.</p>
         </div>
         """, unsafe_allow_html=True)
     
-    # Getting started section
-    st.markdown("### 🚀 Get Started")
-    start_col1, start_col2 = st.columns([2, 1])
+    # Features showcase section
+    st.markdown('<div class="section-header">💼 What You Can Achieve</div>', unsafe_allow_html=True)
+    
+    benefit_col1, benefit_col2 = st.columns(2)
+    
+    with benefit_col1:
+        st.markdown("""
+        <div style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%); border: 1px solid #e2e8f0; border-radius: 20px; padding: 2rem; margin: 1rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <div style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; margin-right: 1rem;">📊</div>
+                <div>
+                    <h4 style="margin: 0; color: #1e293b; font-weight: 700;">Data-Driven Insights</h4>
+                    <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Advanced Analytics</p>
+                </div>
+            </div>
+            <p style="color: #64748b; font-style: italic; line-height: 1.6;">"Get comprehensive skill assessments, market trends, and personalized recommendations based on real industry data and AI analysis."</p>
+            <div style="color: #f59e0b; font-size: 1.2rem;">⭐⭐⭐⭐⭐</div>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with benefit_col2:
+        st.markdown("""
+        <div style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%); border: 1px solid #e2e8f0; border-radius: 20px; padding: 2rem; margin: 1rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; margin-right: 1rem;">🎯</div>
+                <div>
+                    <h4 style="margin: 0; color: #1e293b; font-weight: 700;">Smart Career Guidance</h4>
+                    <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Personalized Growth Path</p>
+                </div>
+            </div>
+            <p style="color: #64748b; font-style: italic; line-height: 1.6;">"Experience intelligent career planning with AI-powered job matching, skill development roadmaps, and interview preparation tools."</p>
+            <div style="color: #f59e0b; font-size: 1.2rem;">⭐⭐⭐⭐⭐</div>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    # Getting started section with enhanced CTA
+    st.markdown('<div class="section-header">🚀 Ready to Transform Your Career?</div>', unsafe_allow_html=True)
+    
+    # Interactive quick start buttons
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        if st.button("🎯 Analyze My Resume", key="quick_resume", help="Get instant AI-powered resume analysis"):
+            st.session_state.current_page = "Resume Analysis"
+            st.rerun()
+    
+    with col2:
+        if st.button("💼 Find Perfect Jobs", key="quick_jobs", help="Discover job opportunities matched to your skills"):
+            st.session_state.current_page = "Job Matching"
+            st.rerun()
+    
+    with col3:
+        if st.button("📊 Skill Assessment", key="quick_skills", help="Evaluate your skills and get improvement suggestions"):
+            st.session_state.current_page = "Skill Matching"
+            st.rerun()
+    
+    start_col1, start_col2 = st.columns([3, 1])
     
     with start_col1:
         st.markdown("""
-        <div style="background: #f8fafc; padding: 1.5rem; border-radius: 12px; border: 1px solid #e2e8f0;">
-            <h4 style="color: #1e293b; margin-bottom: 1rem;">Ready to Transform Your Career?</h4>
-            <p style="color: #64748b; margin-bottom: 1rem;">Start by uploading your resume and discover your potential in the Indian job market!</p>
-            <div style="margin-top: 1rem;">
-                <span style="background: #dcfce7; color: #166534; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.9rem; margin-right: 0.5rem;">✓ Free to use</span>
-                <span style="background: #dbeafe; color: #1e40af; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.9rem; margin-right: 0.5rem;">✓ AI-powered</span>
-                <span style="background: #fef3c7; color: #92400e; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.9rem;">✓ Indian market focus</span>
+        <div style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: 2.5rem; border-radius: 20px; border: 1px solid #e2e8f0; margin: 1rem 0;">
+            <h3 style="color: #1e293b; margin-bottom: 1.5rem; font-size: 1.5rem; font-weight: 700;">Start Your Journey Today!</h3>
+            <p style="color: #1e293b; margin-bottom: 1.5rem; font-size: 1.1rem; line-height: 1.7; font-weight: 500;">Join thousands of professionals who have transformed their careers with CareerCraft AI. Get personalized insights, discover perfect job matches, and accelerate your career growth in the Indian job market.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem;">
+                <span style="background: #dcfce7; color: #166534; padding: 0.5rem 1rem; border-radius: 25px; font-size: 0.95rem; font-weight: 600;">✓ 100% Free to use</span>
+                <span style="background: #dbeafe; color: #1e40af; padding: 0.5rem 1rem; border-radius: 25px; font-size: 0.95rem; font-weight: 600;">✓ AI-powered insights</span>
+                <span style="background: #fef3c7; color: #92400e; padding: 0.5rem 1rem; border-radius: 25px; font-size: 0.95rem; font-weight: 600;">✓ Indian market focused</span>
+                <span style="background: #f3e8ff; color: #7c3aed; padding: 0.5rem 1rem; border-radius: 25px; font-size: 0.95rem; font-weight: 600;">✓ Instant results</span>
             </div>
         </div>
         """, unsafe_allow_html=True)
     
     with start_col2:
         st.markdown("""
-        <div style="text-align: center; padding: 1rem;">
-            <div style="font-size: 4rem; margin-bottom: 1rem;">🎯</div>
-            <p style="color: #4f46e5; font-weight: 600;">Start Your Journey</p>
-            <p style="color: #64748b; font-size: 0.9rem;">Navigate to Resume Analysis to begin</p>
+        <div style="text-align: center; padding: 2rem 1rem;">
+            <div style="font-size: 5rem; margin-bottom: 1.5rem; animation: pulse 2s infinite;">🚀</div>
+            <h4 style="color: #4f46e5; font-weight: 700; margin-bottom: 1rem;">Begin Now</h4>
+            <p style="color: #64748b; font-size: 1rem; margin-bottom: 1.5rem;">Navigate to Resume Analysis to start your career transformation</p>
+            <div style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); color: white; padding: 1rem; border-radius: 15px; font-weight: 600; animation: fadeInUp 1s ease-out;">
+                Step 1: Upload Resume
+            </div>
         </div>
         """, unsafe_allow_html=True)
+    
+    # Footer with additional info
+    st.markdown("---")
+    st.markdown("""
+    <div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); border-radius: 16px; margin-top: 2rem;">
+        <h4 style="color: #1e293b; margin-bottom: 1rem;">🌟 Trusted by Professionals Across India</h4>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; margin-top: 1rem;">
+            <div style="text-align: center;">
+                <div style="color: #4f46e5; font-size: 1.5rem; font-weight: 700;">Mumbai</div>
+                <div style="color: #64748b; font-size: 0.9rem;">Financial Hub</div>
+            </div>
+            <div style="text-align: center;">
+                <div style="color: #4f46e5; font-size: 1.5rem; font-weight: 700;">Bangalore</div>
+                <div style="color: #64748b; font-size: 0.9rem;">Tech Capital</div>
+            </div>
+            <div style="text-align: center;">
+                <div style="color: #4f46e5; font-size: 1.5rem; font-weight: 700;">Delhi</div>
+                <div style="color: #64748b; font-size: 0.9rem;">Corporate Center</div>
+            </div>
+            <div style="text-align: center;">
+                <div style="color: #4f46e5; font-size: 1.5rem; font-weight: 700;">Hyderabad</div>
+                <div style="color: #64748b; font-size: 0.9rem;">Cyberabad</div>
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 def show_resume_analysis():
     """Display resume analysis page"""
@@ -765,26 +900,63 @@ def show_skills_courses():
             
             st.markdown('<div class="course-card">', unsafe_allow_html=True)
             st.markdown(f'<div class="course-title">🎯 {skill} Mastery Course</div>', unsafe_allow_html=True)
-            st.markdown(f'<div class="course-provider">CareerCraft Academy</div>', unsafe_allow_html=True)
-            st.markdown(f'<div class="course-description">Comprehensive course covering all aspects of {skill} with hands-on projects and real-world applications.</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="course-provider">⭐ CareerCraft Academy</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="course-description">🚀 Comprehensive course covering all aspects of {skill} with hands-on projects, real-world applications, and industry-standard practices. Perfect for career advancement!</div>', unsafe_allow_html=True)
             
-            # Course details
+            # Course details with enhanced styling
             col1, col2 = st.columns(2)
             with col1:
-                st.markdown('<span class="course-duration">4-6 weeks</span>', unsafe_allow_html=True)
+                st.markdown('<span class="course-duration">⏱️ 4-6 weeks</span>', unsafe_allow_html=True)
             with col2:
-                st.markdown('<span class="course-difficulty">Intermediate</span>', unsafe_allow_html=True)
+                st.markdown('<span class="course-difficulty">📊 Intermediate</span>', unsafe_allow_html=True)
             
-            # Progress bar (simulated)
+            # Enhanced progress bar with skill-based progress
             progress_value = min(90, 20 + len(skill) * 5)
             st.markdown(f'''
             <div class="progress-bar">
                 <div class="progress-fill" style="width: {progress_value}%"></div>
             </div>
+            <div style="text-align: center; margin-top: 0.5rem; font-size: 0.9rem; color: #64748b;">
+                📈 {progress_value}% Course Completion Rate
+            </div>
             ''', unsafe_allow_html=True)
             
+            # Enhanced course link with better styling
             if course_link != "No course found":
-                st.markdown(f'<a href="{course_link}" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">🔗 Start Learning {skill}</a>', unsafe_allow_html=True)
+                st.markdown(f'''
+                <div style="margin-top: 1.5rem; text-align: center;">
+                    <a href="{course_link}" target="_blank" style="
+                        background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+                        color: white;
+                        text-decoration: none;
+                        padding: 0.8rem 2rem;
+                        border-radius: 25px;
+                        font-weight: 600;
+                        display: inline-block;
+                        transition: all 0.3s ease;
+                        box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+                    ">
+                        � Start Learning {skill}
+                    </a>
+                </div>
+                ''', unsafe_allow_html=True)
+            else:
+                st.markdown(f'''
+                <div style="margin-top: 1.5rem; text-align: center;">
+                    <button style="
+                        background: linear-gradient(135deg, #6b7280 0%, #9ca3af 100%);
+                        color: white;
+                        border: none;
+                        padding: 0.8rem 2rem;
+                        border-radius: 25px;
+                        font-weight: 600;
+                        cursor: not-allowed;
+                        box-shadow: 0 4px 15px rgba(107, 114, 128, 0.3);
+                    ">
+                        🔍 Course Coming Soon
+                    </button>
+                </div>
+                ''', unsafe_allow_html=True)
             
             st.markdown('</div>', unsafe_allow_html=True)
 
